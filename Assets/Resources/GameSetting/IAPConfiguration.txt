@@ -1,0 +1,163 @@
+{
+    "package0": {
+        "AndroidPackage": "na",
+        "CombinationPackage": [],
+        "Description": "Free package",
+        "Id": "package0",
+        "IncludedBy": "na",
+        "PackageName": "txt_iap_package_0",
+        "PackagePreview": "icon_package_0",
+        "PackageType": "NonConsumable",
+        "Price": "Free",
+        "iOSPackage": "na"
+    },
+    "package5": {
+        "AndroidPackage": "na",
+        "CombinationPackage": [],
+        "Description": "Timer package",
+        "Id": "package5",
+        "IncludedBy": "na",
+        "PackageName": "txt_iap_package_5",
+        "PackagePreview": "icon_package_5",
+        "PackageType": "NonConsumable",
+        "Price": "Free",
+        "iOSPackage": "na"
+    },
+    "package1": {
+        "AndroidPackage": "com.animocabrands.google.aroceancoloring.package1",
+        "CombinationPackage": [],
+        "Description": "8 coloring papers",
+        "Id": "package1",
+        "IncludedBy": "package4",
+        "PackageName": "txt_iap_package_1",
+        "PackagePreview": "icon_package_1",
+        "PackageType": "NonConsumable",
+        "Price": "USD 3.99",
+        "iOSPackage": "com.animocabrands.itunes.mindfuloceancoloring.dev.package1"
+    },
+    "package2": {
+        "AndroidPackage": "com.animocabrands.google.aroceancoloring.package2",
+        "CombinationPackage": [],
+        "Description": "8 coloring papers",
+        "Id": "package2",
+        "IncludedBy": "package4",
+        "PackageName": "txt_iap_package_2",
+        "PackagePreview": "icon_package_2",
+        "PackageType": "NonConsumable",
+        "Price": "USD 3.99",
+        "iOSPackage": "com.animocabrands.itunes.mindfuloceancoloring.dev.package2"
+    },
+    "package3": {
+        "AndroidPackage": "com.animocabrands.google.aroceancoloring.package3",
+        "CombinationPackage": [],
+        "Description": "8 coloring papers",
+        "Id": "package3",
+        "IncludedBy": "package4",
+        "PackageName": "txt_iap_package_3",
+        "PackagePreview": "icon_package_3",
+        "PackageType": "NonConsumable",
+        "Price": "USD 3.99",
+        "iOSPackage": "com.animocabrands.itunes.mindfuloceancoloring.dev.package3"
+    },
+    "package4": {
+        "AndroidPackage": "com.animocabrands.google.aroceancoloring.package4",
+        "CombinationPackage": [
+            "package1",
+            "package2",
+            "package3",
+            "package5"
+        ],
+        "Description": "All in one",
+        "Id": "package4",
+        "IncludedBy": "na",
+        "PackageName": "txt_iap_package_4",
+        "PackagePreview": "icon_package_4",
+        "PackageType": "NonConsumable",
+        "Price": "USD 9.99",
+        "iOSPackage": "com.animocabrands.itunes.mindfuloceancoloring.dev.package4"
+    },
+    "packageBand01": {
+        "AndroidPackage": "com.animocabrands.google.aroceancoloring.package105",
+        "CombinationPackage": [],
+        "Description": "Brand 1",
+        "Id": "packageBand01",
+        "IncludedBy": "na",
+        "PackageName": "txt_band01",
+        "PackagePreview": "na",
+        "PackageType": "NonConsumable",
+        "Price": "USD 14.99",
+        "iOSPackage": "com.outblaze.mindfuloceanmeta.package105"
+    },
+    "packageBand02": {
+        "AndroidPackage": "com.animocabrands.google.aroceancoloring.package110",
+        "CombinationPackage": [],
+        "Description": "Brand 2",
+        "Id": "packageBand02",
+        "IncludedBy": "na",
+        "PackageName": "txt_band02",
+        "PackagePreview": "na",
+        "PackageType": "NonConsumable",
+        "Price": "USD 17.99",
+        "iOSPackage": "com.outblaze.mindfuloceanmeta.package110"
+    },
+    "packageBand03": {
+        "AndroidPackage": "com.animocabrands.google.aroceancoloring.package120",
+        "CombinationPackage": [],
+        "Description": "Brand 3",
+        "Id": "packageBand03",
+        "IncludedBy": "na",
+        "PackageName": "txt_band03",
+        "PackagePreview": "na",
+        "PackageType": "NonConsumable",
+        "Price": "USD 110.99",
+        "iOSPackage": "com.outblaze.mindfuloceanmeta.package120"
+    },
+    "packageBand04": {
+        "AndroidPackage": "com.animocabrands.google.aroceancoloring.packagemore105",
+        "CombinationPackage": [],
+        "Description": "Brand 2",
+        "Id": "packageBand04",
+        "IncludedBy": "na",
+        "PackageName": "txt_band04",
+        "PackagePreview": "na",
+        "PackageType": "NonConsumable",
+        "Price": "USD 12.99",
+        "iOSPackage": "com.outblaze.mindfuloceanmeta.packagemore105"
+    },
+    "packageBand05": {
+        "AndroidPackage": "com.animocabrands.google.aroceancoloring.packagemore110",
+        "CombinationPackage": [],
+        "Description": "Brand 3",
+        "Id": "packageBand05",
+        "IncludedBy": "na",
+        "PackageName": "txt_band05",
+        "PackagePreview": "na",
+        "PackageType": "NonConsumable",
+        "Price": "USD 12.99",
+        "iOSPackage": "com.outblaze.mindfuloceanmeta.packagemore110"
+    },
+    "packageBand06": {
+        "AndroidPackage": "com.animocabrands.google.aroceancoloring.packagemore115",
+        "CombinationPackage": [],
+        "Description": "Brand 3",
+        "Id": "packageBand06",
+        "IncludedBy": "na",
+        "PackageName": "txt_band06",
+        "PackagePreview": "na",
+        "PackageType": "NonConsumable",
+        "Price": "USD 15.99",
+        "iOSPackage": "com.outblaze.mindfuloceanmeta.packagemore115"
+    },
+    "packageBand07": {
+        "AndroidPackage": "com.animocabrands.google.aroceancoloring.packagefreereplace",
+        "CombinationPackage": [],
+        "Description": "Accessory",
+        "Id": "packageBand07",
+        "IncludedBy": "na",
+        "PackageName": "txt_band07",
+        "PackagePreview": "na",
+        "PackageType": "NonConsumable",
+        "Price": "USD 13.99",
+        "iOSPackage": "com.outblaze.mindfuloceanmeta.packagefreereplace"
+    }                 
+}

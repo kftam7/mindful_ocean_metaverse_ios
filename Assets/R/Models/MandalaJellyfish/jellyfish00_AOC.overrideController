@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: jellyfish00_AOC
+  m_Controller: {fileID: 9100000, guid: 00544e7658bd1cb4ab020acec14d25e4, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b82a8c47c0e291343ad194d46680c604, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 63491ed20df38424299659c94005cf75, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: a949d551274458a45b523e744c47e536, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 06f6ed9f4fb4240f9bc248645a582a16, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 487418a49cec9c343b75b601940f4f3d, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 7aedfcaecb6b142c885c923e16c52166, type: 3}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/R/Scenes/AquariumManageScene.unity
+    guid: 1dd1cb1612d894df285799d4d82992f4
+  - enabled: 1
+    path: Assets/R/Scenes/ARMetaverse.unity
+    guid: 06af6bb9141cc4647a1b7f59247a2049
+  - enabled: 1
+    path: Assets/R/Scenes/ARHatchery.unity
+    guid: d9f79176efdeb4708b439a2f43e2cab5
+  - enabled: 1
+    path: Assets/R/Scenes/Aquarium.unity
+    guid: 4ce51434550fc9f4c88248fa47adf48a
+  - enabled: 1
+    path: Assets/R/Scenes/LoadingScene.unity
+    guid: 3ca8639cb28904c028d7159ca44df8bb
+  - enabled: 1
+    path: Assets/R/Scenes/ColoringBook.unity
+    guid: 222e0235518ff4673abc49b02170a677
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 41fd2c8e7c6d94ccd8081bf143380631, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 96b34fcca1d38449eaa924f0ba0b6fdd, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: c3b4cfae4348b407ab8f311899f52c95, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: af239ee495ed543b3b43fa07498cfdfb, type: 2}

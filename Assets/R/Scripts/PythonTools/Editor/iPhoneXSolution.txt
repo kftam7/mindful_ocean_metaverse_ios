@@ -1,0 +1,20 @@
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone && (int)[UIScreen mainScreen].nativeBounds.size.height == 2436){
+        
+        NSLog(@"This is iPhone X");
+        
+        CGRect winSize = [UIScreen mainScreen].bounds;
+        NSLog(@"Winsize %f x %f", winSize.size.height, winSize.size.width);
+        float bottomMargin = 15.0f;
+        float widthMargin = 50.0f;
+        
+        winSize.size.width -= widthMargin * 2;
+        winSize.origin.x = widthMargin;
+        
+        winSize.size.height -= bottomMargin * 2;
+        winSize.origin.y = bottomMargin;
+        
+        _window = [[UIWindow alloc] initWithFrame: winSize];
+    }else{
+        
+        _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    }

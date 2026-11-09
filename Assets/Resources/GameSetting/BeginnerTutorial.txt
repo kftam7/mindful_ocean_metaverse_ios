@@ -1,0 +1,755 @@
+{
+    "0": {
+        "ActionDescription": "Wait for click for showing AR mode popup",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "ClickDetector",
+        "SetAlignment": false,
+        "Step": 10,
+        "Target": [
+            "na"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "SceneLoaded",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Aquarium",
+        "Type": "Button"
+    },
+    "11": {
+        "ActionDescription": "Show AR mode tutorial popup",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "ARModeIntro",
+        "SetAlignment": false,
+        "Step": 11,
+        "Target": [
+            "na"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Popup"
+    },
+    "12": {
+        "ActionDescription": "Show hidden menu",
+        "ActionValue": [
+            "true"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": false,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "na",
+        "SetAlignment": false,
+        "Step": 12,
+        "Target": [
+            "HidenButton"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Action"
+    },
+    "13": {
+        "ActionDescription": "Click here to enter AR mode",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0.6,
+        "DelayStart": 0.6,
+        "Description": "txt_tutorial_step_19",
+        "EnableTextBG": true,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "Bottom"
+        ],
+        "PointerPrefab": [
+            "TutorialArrow"
+        ],
+        "Prefab": "Indicator",
+        "SetAlignment": true,
+        "Step": 13,
+        "Target": [
+            "HidenButton/AR"
+        ],
+        "TargetButton": [
+            "AR"
+        ],
+        "TextAlignment": 0.5,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "na",
+        "TriggeredByParameter": "Next",
+        "Type": "Button"
+    },
+    "14": {
+        "ActionDescription": "Hide back button",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": false,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "na",
+        "SetAlignment": false,
+        "Step": 14,
+        "Target": [
+            "BackButton"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "SceneLoaded",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "ARAquarium",
+        "Type": "Action"
+    },
+    "15": {
+        "ActionDescription": "Detect whether model has placed.",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "PlacementListener",
+        "SetAlignment": false,
+        "Step": 15,
+        "Target": [
+            "na"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Listener"
+    },
+    "16": {
+        "ActionDescription": "Confirm to show it in AR mode!",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0.3,
+        "Description": "txt_tutorial_step_22",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "Left"
+        ],
+        "PointerPrefab": [
+            "HitsPointer"
+        ],
+        "Prefab": "Hits",
+        "SetAlignment": false,
+        "Step": 16,
+        "Target": [
+            "Confirm"
+        ],
+        "TargetButton": [
+            "Confirm"
+        ],
+        "TextAlignment": 0.5,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Button"
+    },
+    "17": {
+        "ActionDescription": "Show back button",
+        "ActionValue": [
+            "true"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "na",
+        "SetAlignment": false,
+        "Step": 17,
+        "Target": [
+            "BackButton"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "na",
+        "TriggeredByParameter": "Next",
+        "Type": "Action"
+    },
+    "18": {
+        "ActionDescription": "TutorialEnd",
+        "ActionValue": [
+            "true"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": false,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "na",
+        "SetAlignment": false,
+        "Step": 18,
+        "Target": [
+            "TUTORIAL_PROGRESS"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "SceneLoaded",
+        "TriggerOnEnd": "End",
+        "TriggeredByParameter": "Aquarium",
+        "Type": "End"
+    },
+    "2": {
+        "ActionDescription": "Please click for showing hiden menu",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "ClickDetector",
+        "SetAlignment": false,
+        "Step": 2,
+        "Target": [
+            "na"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "SceneLoaded",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Aquarium",
+        "Type": "Button"
+    },
+    "3": {
+        "ActionDescription": "Show hidden menu",
+        "ActionValue": [
+            "true"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": false,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "na",
+        "SetAlignment": false,
+        "Step": 3,
+        "Target": [
+            "HidenButton"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Action"
+    },
+    "4": {
+        "ActionDescription": "Click the \" + Fish \" button",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0.6,
+        "DelayStart": 0.6,
+        "Description": "txt_tutorial_step_4",
+        "EnableTextBG": true,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "Bottom"
+        ],
+        "PointerPrefab": [
+            "TutorialArrow"
+        ],
+        "Prefab": "Indicator",
+        "SetAlignment": true,
+        "Step": 4,
+        "Target": [
+            "HidenButton/AddFish"
+        ],
+        "TargetButton": [
+            "AddFish"
+        ],
+        "TextAlignment": 0.5,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Button"
+    },
+    "5": {
+        "ActionDescription": "Hide menu",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": false,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "na",
+        "SetAlignment": false,
+        "Step": 5,
+        "Target": [
+            "HidenButton"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Action"
+    },
+    "6": {
+        "ActionDescription": "Proceed to print",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0.3,
+        "DelayStart": 0.5,
+        "Description": "txt_tutorial_step_6",
+        "EnableTextBG": true,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "Bottom"
+        ],
+        "PointerPrefab": [
+            "TutorialArrow"
+        ],
+        "Prefab": "Indicator",
+        "SetAlignment": true,
+        "Step": 6,
+        "Target": [
+            "TabGroup/Printbtn"
+        ],
+        "TargetButton": [
+            "Printbtn"
+        ],
+        "TextAlignment": 0.02,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "na",
+        "TriggeredByParameter": "Next",
+        "Type": "Button"
+    },
+    "7": {
+        "ActionDescription": "Select the \"Mini Fish\" Package",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "txt_tutorial_step_7",
+        "EnableTextBG": true,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "Top"
+        ],
+        "PointerPrefab": [
+            "TutorialArrow"
+        ],
+        "Prefab": "Indicator",
+        "SetAlignment": true,
+        "Step": 7,
+        "Target": [
+            "PackageShop/ScrollView/Cell3"
+        ],
+        "TargetButton": [
+            "Image"
+        ],
+        "TextAlignment": 0.02,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "SceneLoaded",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "PrintingScene",
+        "Type": "Button"
+    },
+    "8": {
+        "ActionDescription": "Start in app drawing.",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "true",
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0.3,
+        "Description": "txt_coloring_in_app",
+        "EnableTextBG": true,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "Top",
+            "Top"
+        ],
+        "PointerPrefab": [
+            "na",
+            "TutorialArrow"
+        ],
+        "Prefab": "Indicator",
+        "SetAlignment": true,
+        "Step": 8,
+        "Target": [
+            "SelectPaper/Content/ColoringPaper0",
+            "BtnGroup/Drawbtn"
+        ],
+        "TargetButton": [
+            "na",
+            "Drawbtn"
+        ],
+        "TextAlignment": 0.5,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Button"
+    },
+    "9": {
+        "ActionDescription": "Hide back button when draw",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": false,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "na",
+        "SetAlignment": false,
+        "Step": 9,
+        "Target": [
+            "UI/Tools/UpperMenu/Backbtn"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "SceneLoaded",
+        "TriggerOnEnd": "na",
+        "TriggeredByParameter": "ColoringBook",
+        "Type": "Action"
+    }
+}

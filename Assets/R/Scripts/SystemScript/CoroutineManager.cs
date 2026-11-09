@@ -1,0 +1,1 @@
+public class CoroutineManager : Network.Singleton<CoroutineManager> { }

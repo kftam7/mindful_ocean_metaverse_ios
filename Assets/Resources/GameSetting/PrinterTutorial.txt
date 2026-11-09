@@ -1,0 +1,354 @@
+{
+    "0": {
+        "ActionDescription": "Game Introduction",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "GameIntro",
+        "SetAlignment": false,
+        "Step": 0,
+        "Target": [
+            "na"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0.02,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "SceneLoaded",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "PrintingScene",
+        "Type": "Popup"
+    },
+    "15": {
+        "ActionDescription": "Hide back button",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": false,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "na",
+        "SetAlignment": false,
+        "Step": 15,
+        "Target": [
+            "UIContainer/btn_back"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0.02,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "SceneLoaded",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "PreviewScene",
+        "Type": "Action"
+    },
+    "16": {
+        "ActionDescription": "Detect skin capture",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "na"
+        ],
+        "PointerPrefab": [
+            "na"
+        ],
+        "Prefab": "CaptureListener",
+        "SetAlignment": false,
+        "Step": 16,
+        "Target": [
+            "na"
+        ],
+        "TargetButton": [
+            "na"
+        ],
+        "TextAlignment": 0.02,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Listener"
+    },
+    "17": {
+        "ActionDescription": "Save this creature to the aquarium!",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0,
+        "Description": "-",
+        "EnableTextBG": false,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "Left"
+        ],
+        "PointerPrefab": [
+            "TutorialArrow"
+        ],
+        "Prefab": "Indicator",
+        "SetAlignment": false,
+        "Step": 17,
+        "Target": [
+            "UI/btn_savetoroll"
+        ],
+        "TargetButton": [
+            "btn_savetoroll"
+        ],
+        "TextAlignment": 0.02,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "na",
+        "TriggeredByParameter": "Next",
+        "Type": "Button"
+    },
+    "6": {
+        "ActionDescription": "Select the \"Mini Fish\" Package",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0.2,
+        "Description": "txt_tutorial_step_7",
+        "EnableTextBG": true,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "Top"
+        ],
+        "PointerPrefab": [
+            "TutorialArrow"
+        ],
+        "Prefab": "Indicator",
+        "SetAlignment": true,
+        "Step": 6,
+        "Target": [
+            "PackageShop/ScrollView/Cell3"
+        ],
+        "TargetButton": [
+            "Image"
+        ],
+        "TextAlignment": 0.02,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Button"
+    },
+    "7": {
+        "ActionDescription": "Save the selected page to photo album for printing",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0.3,
+        "Description": "txt_tutorial_step_8",
+        "EnableTextBG": true,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "Top"
+        ],
+        "PointerPrefab": [
+            "TutorialArrow"
+        ],
+        "Prefab": "Indicator",
+        "SetAlignment": true,
+        "Step": 7,
+        "Target": [
+            "BtnGroup/Savebtn"
+        ],
+        "TargetButton": [
+            "Savebtn"
+        ],
+        "TextAlignment": 0.5,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Button"
+    },
+    "9": {
+        "ActionDescription": "You can also print the coloring pages directly here",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0.3,
+        "Description": "txt_tutorial_step_9",
+        "EnableTextBG": true,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "Top"
+        ],
+        "PointerPrefab": [
+            "TutorialArrow"
+        ],
+        "Prefab": "Indicator",
+        "SetAlignment": true,
+        "Step": 9,
+        "Target": [
+            "BtnGroup/Printbtn"
+        ],
+        "TargetButton": [
+            "Printbtn"
+        ],
+        "TextAlignment": 0.5,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Button"
+    },
+    "10": {
+        "ActionDescription": "Proceed to Scan",
+        "ActionValue": [
+            "false"
+        ],
+        "BGXOffset": 150,
+        "BGYOffset": 0,
+        "BlockRaycast": [
+            "false"
+        ],
+        "BlockTime": 0,
+        "DelayStart": 0.3,
+        "Description": "txt_tutorial_step_12",
+        "EnableTextBG": true,
+        "FontSize": 60,
+        "IsBestFit": true,
+        "IsLogProgress": true,
+        "PointDirection": [
+            "Top"
+        ],
+        "PointerPrefab": [
+            "TutorialArrow"
+        ],
+        "Prefab": "Indicator",
+        "SetAlignment": true,
+        "Step": 10,
+        "Target": [
+            "BtnGroup/Scanbtn"
+        ],
+        "TargetButton": [
+            "Scanbtn"
+        ],
+        "TextAlignment": 0.5,
+        "TextColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "TriggerCondition": "Custom",
+        "TriggerOnEnd": "Next",
+        "TriggeredByParameter": "Next",
+        "Type": "Button"
+    }
+}
